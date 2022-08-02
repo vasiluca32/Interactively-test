@@ -10,7 +10,7 @@ let userdata2;
 const wrapper = document.createElement("div");
 wrapper.className = "wrapper";
 container.appendChild(wrapper);
-wrapper.innerHTML = "<p>Loading data...</p>";
+wrapper.innerHTML = "<p>Loading data....</p>";
 
 fetch(userInfoUrl)
   .then((response) => response.json())
