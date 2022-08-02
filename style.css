@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 40px 5% 30px;
+}
+
+.selector {
+    position: fixed;
+    top: 10px;
+    right: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.card p, .card a {
+    margin-bottom: 10px;
+}
+
+.picture {
+    margin-bottom: 15px;
+}
+
+p span, a span {
+    font-weight: bolder;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a span {
+    color: #000;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        grid-template-columns: auto auto;
+        gap: 14px
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper {
+        gap: 50px;
+    }
+}
