@@ -130,7 +130,7 @@ fetch(userInfoUrl)
           }"><span>Phone: </span>${element.phone ? element.phone : "-"}</a>
           <a class="website button" href="http://www.${
             element.website
-          }">Website</a>
+          }" target="_blank">Website</a>
           <p class="company"><span>Company: </span>${element.company.name}</p>
           <p class="slogan"><span>Slogan: </span>${
             element.company.catchPhrase
