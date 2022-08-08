@@ -58,6 +58,7 @@ a span {
     color: white;
     padding: 15px;
     width: fit-content;
+    border-radius: 10px;
 }
 
 .button:focus {
