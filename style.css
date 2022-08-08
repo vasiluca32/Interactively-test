@@ -52,6 +52,18 @@ a span {
     color: #000;
 }
 
+.button {
+    border: 2px solid transparent;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    width: fit-content;
+}
+
+.button:focus {
+    border: 2px solid red;
+}
+
 
 
 
